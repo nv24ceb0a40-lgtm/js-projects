@@ -11,7 +11,7 @@ submitRange.addEventListener("click",()=>{
     const minmum=Number(min.value);
     const maximum=Number(max.value);
     secretNum=Math.floor( Math.random()*(maximum-minmum+1) + minmum );
-    //console.log(secretNum);
+    console.log(secretNum);
 })
 const resetGame=()=>{
      min.value = "";
