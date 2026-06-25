@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e2f;
+   color: #f0f0f0;
+}
+#main{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    border: 2px solid white;
+    padding: 40px 60px;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#guessingContainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 10px 100px;
+
+}
+#inputContainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 10px 100px;
+    margin-bottom: 20px;
+
+}
+#minContainer, #maxContainer,#guessform {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding: 8px 20px;
+    background-color: #f0f0f0;
+    color: #1e1e2f;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #cfcfcf;
+}
+
+button:active {
+    background-color: #aaaaaa;
+}
