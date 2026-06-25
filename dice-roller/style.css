@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2d5f4f;
+}
+
+#container {
+    border: 2px solid #f5f0e1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f5f0e1;
+    border-radius: 12px;
+    padding: 40px 60px;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    margin-right: 8px;
+}
+
+input {
+    font-family: inherit;
+    font-size: medium;
+    padding: 6px 10px;
+    background-color: #f5f0e1;
+    color: #2d5f4f;
+    border: 2px solid #f5f0e1;
+    border-radius: 4px;
+    width: 60px;
+    text-align: center;
+}
+
+button {
+    font-family: inherit;
+    font-size: medium;
+    padding: 8px 24px;
+    background-color: #f5f0e1;
+    color: #2d5f4f;
+    border: 2px solid #f5f0e1;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #e0dac9;
+}
+
+button:active {
+    background-color: #c9c2ad;
+}
+
+#diceResult {
+    font-size: large;
+    text-align: center;
+}
+
+#imageResult {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#imageResult img {
+    width: 60px;
+    height: 60px;
+}
