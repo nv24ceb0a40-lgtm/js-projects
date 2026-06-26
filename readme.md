@@ -15,8 +15,7 @@ A collection of JavaScript projects built while following [Bro Code's JavaScript
 | 7 | Stopwatch | Start, pause, and reset stopwatch functionality |
 | 8 | Calculator | Basic calculator supporting arithmetic operations |
 | 9 | Rock Paper Scissors | Classic game played against the computer |
-| 10 | Image Slider | Slideshow component cycling through images |
-| 11 | Weather App | Fetches and displays live weather data from an API |
+| 10 | Pokedex | Fetches and displays info of an pokemonfrom an API |
 
 ## Tech Stack
 
